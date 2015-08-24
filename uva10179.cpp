@@ -4,7 +4,6 @@
 */
 #include<bits/stdc++.h>
 using namespace std; typedef long long ll; typedef pair<int,int> grp;
-
 inline ll power(ll a,ll b)     { ll r=1; while(b){ if(b&1) r=r*a    ; a=a*a    ; b>>=1;} return r;}
 inline ll power(ll a,ll b,ll m){ ll r=1; while(b){ if(b&1) r=(r*a)%m; a=(a*a)%m; b>>=1;} return r;}
 void fast(){	
